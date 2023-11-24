@@ -50,6 +50,14 @@ body{
     border-radius: 200px;
     box-shadow: 5px 0px 0 goldenrod;
 }
+.CROSS_rotate{
+    transition : all 2s ;
+    transform : rotateY(360deg);
+}
+.FACE_rotate{
+    transition : all 2s;
+    transform : rotateY(-360deg);
+}
 
 table{
     border: 1px solid blueviolet;
