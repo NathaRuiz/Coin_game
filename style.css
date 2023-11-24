@@ -1,17 +1,21 @@
 
+body{
+    background-color: burlywood;
+}
+
 .game_content{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: space-around;
-    align-items: center;
-    background-color: aqua;
+    align-items: center; 
+    margin-top: 10%; 
 }
 
 .buttons{
     display: flex;
     flex-direction: column;
     min-height: 40vh;
-    background-color: blueviolet;
     justify-content: space-around;
 }
 .btn{
