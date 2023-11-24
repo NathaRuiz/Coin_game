@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="game_content">
+
+        <section class="buttons">
+            <button  id="spin_coin" class="btn">Spin</button>
+            <button id="restart_game" class="btn">Restart</button>
+        </section>
+    
+        <section class="coin">
+            <div id="coin_content">?</div>
+        </section>
+    
+        <section class="counters">
+            <table>
+                <tr>
+                  <th>Face counter</th>
+                  <th>Cross counter</th>
+                </tr>
+                <tr>
+                  <td id="face_counter">0</td>
+                  <td id="cross_counter">0</td>
+                </tr>
+            </table>
+        </section>
+
+    </main>
+
+    <script src="game.js"></script>
+</body>
+</html>
