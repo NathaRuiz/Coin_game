@@ -25,17 +25,23 @@ function add_rotate_event(coin_side){
 spin_coin.addEventListener("click", () => {
   if (random_result(0, 1) === 0) {
     add_rotate_event("FACE");
-    counter_f++;
-    face_counter.textContent = counter_f;
+    setTimeout(() => {      
+      counter_f++;
+      face_counter.textContent = counter_f;
+    }, 1000);
   } else {
     add_rotate_event("CROSS");
-    counter_c++;
-    cross_counter.textContent = counter_c;
+    setTimeout(() => {      
+      counter_c++;
+      cross_counter.textContent = counter_c;
+    }, 1000);
   }
 });
 
 restart_game.addEventListener("click", () => {
   coin_content.textContent = "?";
+  counter_f = "0";
+  counter_c = "0";
   face_counter.textContent = 0;
   cross_counter.textContent = 0;
 });
