@@ -56,7 +56,7 @@ body{
 }
 .FACE_rotate{
     transition : all 2s;
-    transform : rotateY(-360deg);
+    transform : rotateY(360deg);
 }
 
 table{
